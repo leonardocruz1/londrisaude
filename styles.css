@@ -95,3 +95,39 @@ button:hover {
     height: 250px;
     display: block;
 }
+
+.logo-container {
+    text-align: center; 
+    padding-top: 20px; 
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.option {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    transition: background-color 0.3s;
+}
+
+.option:hover {
+    background-color: #37A2F0;
+    color: #fff;
+}
