@@ -95,3 +95,8 @@ button:hover {
     height: 250px;
     display: block;
 }
+
+.logo-container {
+    text-align: center; 
+    padding-top: 20px; 
+}
